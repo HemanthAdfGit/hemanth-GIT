@@ -1,0 +1,9 @@
+{
+	"name": "hemgitdemo9",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4a455f52-e797-4ee0-941c-be39f90912b4",
+		"tenantId": "2f771654-1257-486a-96a9-021c6bfe27cb"
+	}
+}
