@@ -1,0 +1,41 @@
+{
+	"name": "gitblob1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "gitlinkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "empdat.txt",
+				"folderPath": "empfolder",
+				"container": "adfdemo"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "emp_id",
+				"type": "String"
+			},
+			{
+				"name": "emp_name",
+				"type": "String"
+			},
+			{
+				"name": "emp_orgin",
+				"type": "String"
+			},
+			{
+				"name": "emp_depid",
+				"type": "String"
+			}
+		]
+	}
+}
